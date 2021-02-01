@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>FlightPool</title>
+</head>
+
+<body>
+
+  <div class="header">
+
+    <a href="index.html"><img class="header-logo" src="img/logo.png"></a>
+
+    <div class="header-buttons">
+      <a href="#">
+        <div class="header-buttons__shares buttons">Акции</div>
+      </a>
+      <a href="#">
+        <div class="header-buttons__search buttons">Поиск</div>
+      </a>
+      <a href="#">
+        <div class="header-buttons__race-registration buttons">Регистрация на рейс</div>
+      </a>
+      <a href="#">
+        <div class="header-buttons__cabinet buttons">Личный кабинет</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1 class="content-title"> Поиск билетов </h1>
+    <div class="content-searchform">
+      <input class="content-searchform__from searchforminput" type="text" placeholder="Откуда">
+      <input class="content-searchform__where searchforminput" type="text" placeholder="Куда">
+      <input class="content-searchform__pplquantity searchforminput" type="number" placeholder="Количество пассажиров"
+        min="1" max="8">
+      <label for="dateform">Выберите дату вылета туда<br><input class="content-searchform__datewhere searchforminput"
+          type="date" id="dateform"></label>
+      <label for="dateback">Выберите дату вылета обратно<br><input class="content-searchform__dateback searchforminput"
+          type="date"></label>
+
+      <input class="content-searchform__button searchforminput" type="button" value="Найти">
+    </div>
+    <div class="content-promotions">
+      <h1 class="content-title">Акции</h1>
+      <span class="content-promotions__rowprom-item-title"><span class="title-1">
+          <h2>Путешествуйте бесплатно!</h2>
+        </span><span class="title-2">
+          <h2>Исследуйте мир!</h2>
+        </span></span>
+      <div class="content-promotions__rowprom">
+        <div class="content-promotions__rowprom-item">
+          <a href="#">
+            <div class="content-promotions__rowprom-item-picture picture-1"></div>
+          </a>
+
+          <div class="content-promotions__rowprom-item-title"></div>
+
+
+        </div>
+        <div class="content-promotions__rowprom-item">
+          <a href="#">
+            <div class="content-promotions__rowprom-item-picture picture-2"></div>
+          </a>
+          <div class="content-promotions__rowprom-item-title"></div>
+
+
+        </div>
+      </div>
+      <span class="content-promotions__rowprom-item-title"><span class="title-1">
+          <h2>Путешествуйте с близкими!</h2>
+        </span><span class="title-2">
+          <h2>Тёплые страны!</h2>
+        </span></span>
+      <div class="content-promotions__rowprom">
+        <div class="content-promotions__rowprom-item">
+          <a href="#">
+            <div class="content-promotions__rowprom-item-picture picture-3"></div>
+          </a>
+          <div class="content-promotions__rowprom-item-title"></div>
+
+
+        </div>
+        <div class="content-promotions__rowprom-item">
+          <a href="#">
+            <div class="content-promotions__rowprom-item-picture picture-4"></div>
+          </a>
+          <div class="content-promotions__rowprom-item-title"></div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="footer-nav">Телефон 8 (800) 100-10-10</span>
+    <span class="footer-nav"><a href=”http://xxxxxx-m1.wsr.ru/return”>Возврат</a></span>
+    <span class="footer-nav"><a href=”http://xxxxxx-m1.wsr.ru/feedback”>Обратная связь</a></span>
+  </div>
+
+
+</body>
+
+</html>
